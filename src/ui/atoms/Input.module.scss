@@ -1,0 +1,22 @@
+
+$border-input:  #CCCCCC;
+$text-error: #FF4C4C;
+$text-gray: #666666;
+.div{
+    display: flex;
+    flex-direction: column;
+
+    .input {
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        border: 1px solid $border-input;
+        color: $text-gray;
+        background-color: #CCCCCC;
+    }
+
+    .p {
+        margin-top: 0.5rem;
+        color: $text-error;
+        font-size: 0.8rem;
+    }
+}
